@@ -1,0 +1,103 @@
+body {
+  max-height: 100%;
+}
+* {
+  background-color: azure;
+  
+}
+.fullApp {
+  position: auto;
+  width: 79%;
+  box-sizing: border-box;
+  border-color: blueviolet;
+  border-style: solid ;
+  border-width: 2px;
+  border-radius: 1rem;
+  background-color: rgb(10, 10, 10);
+}
+main {
+  
+  max-height: 750px;
+  padding : 100px 400px 20px 500px;
+  /* border-radius: 1rem; */
+  /* : 100px 400px 20px 500px; */
+  /* margin-top: 20px;
+  margin-left: 500px;
+  margin-right: 400px; */
+  font-size: 20px;
+  width: 390px;
+  font-family:Georgia, 'Times New Roman', Times, serif, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+}
+
+.headerClass {
+  padding-left: 55px;
+  font-size: 22px;
+  border-radius: 1rem;
+  color: black;
+}
+
+.inputForm {
+  background: transparent;
+  height: 40px;
+}
+.inputForm input {
+  height: 40px;
+  width: 94%;
+  border-radius: 1rem;
+  background: transparent;
+  color: azure;
+  padding-left: 12px;
+  font-size: larger;
+  text-align: right;
+}
+
+.answer {
+  background: transparent;
+  height: 40px;
+}
+.answer{
+  height: 38px;
+  width: 98%;
+  border-style: none;
+  background: green;
+  color: orangered;
+  text-align: right;
+  padding-right: 25px;
+}
+.wholeBtn {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(10, 10, 10);
+  border-radius: 1rem;
+}
+
+.buttonRow {
+  /* width: 300px; */
+  background: transparent;
+  padding: 2px 0px 2px 0px ;
+  text-align: center;
+}
+.eachInput{
+  width: 60px;
+  margin-right: 6px;
+}
+.topRow input{
+  /* width: 80px; */
+  background-color: darkgray;
+  color: black;
+}
+div .buttonRow input {
+  /* position: relative; */
+  width: 65px;
+  /* padding: 0 2px 1px; */
+  height: 40px;
+  border-radius: 40rem;
+  background-color: rgb(194, 117, 16);
+  font-size: large;
+  color: azure;
+  border: none;
+}
+.topRow input{
+  width: 80px;
+  background-color: rgb(121, 107, 107);
+}
