@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+}
+
+a{
+    background-color: blueviolet;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+footer {
+    background-color: blueviolet;
+}
