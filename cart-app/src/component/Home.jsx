@@ -1,7 +1,8 @@
+
 function Home() {
     return (
       <div className="Home">
-        <h1>This is the home page</h1>
+        <img src={require("../component/images/homepage_background.jpg")} alt="Homepage background"/>
       </div>
     );
   }
