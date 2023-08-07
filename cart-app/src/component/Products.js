@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
-// import ProductDetails from "./ProductDetails";
+import './Product.css'
+import { ProductContextProvider } from "./ProductContext";
+
 function Products() {
     const [products, setProducts] = useState([]);
+    const [count, setCount] = useState(1)
+    const cart = useContext(ProductContextProvider)
 
     useEffect(() => {
       fetch("/api/products/")
@@ -13,14 +17,18 @@ function Products() {
 
     const productsElement = products.map(product => (
       <div key={product.id} className="product-tile">
-          <img src={product.imageUrl} alt="" />
           <div className="product-info" >
-          <image src={product.image} alt="" />
-            <h3>{product.name}</h3>
+          <img src={product.imageUrl} alt="" />
+          <div className="product-details">
+            <h3 >{product.name}</h3>
+            <h5 className="product-quantity">Price: ${product.price}</h5>
           </div>
-          <i className={`product-type ${product.type} selected`}>{product.type}</i>
-          <h5 className="product-quantity">Price: ${product.price}</h5>
+          </div>
+          {/* <i className={`product-type ${product.type} selected`}>{product.type}</i> */}
         <Link to={`/products/${product.id}`}>
+        { count 
+            ? <button >{count}</button> 
+            : <button >Add to Cart</button> }
           <button className="add-product">Add to Cart</button>
         </Link>
       </div>

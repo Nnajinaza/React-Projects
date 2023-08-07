@@ -11,7 +11,9 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 const defaultTheme = createTheme()
 
-export default function Register() {
+export default function Register({props}) {
+  const [firstName, setfirstName] = React.useRef
+
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -73,7 +75,7 @@ export default function Register() {
                         type="submit"
                         variant="contained"
                         fullWidth
-                    >Sign In</Button>
+                    >Login</Button>
                 </Grid>   
 
               </Grid>

@@ -23,12 +23,12 @@ export default function Button(props) {
                   <input type="button" value={"7"} onClick={props.onClick} style={{backgroundColor: 'dimgray'}}className="eachInput"/>
                   <input type="button" value={"8"} onClick={props.onClick} style={{backgroundColor: 'dimgray'}}className="eachInput"/>
                   <input type="button" value={"9"} onClick={props.onClick} style={{backgroundColor: 'dimgray'}} className="eachInput"/>
-                  <input type="button" value={"."} onClick={props.onClick} style={{fontWeight: '20px'}} className="eachInput"/>                
+                  <input type="button" value={"%"} onClick={props.onClick} style={{fontWeight: '20px'}} className="eachInput"/>                
               </div>
               <div className="buttonRow">
                   <input type="button" value={"0"} onClick={props.onClick} style={{backgroundColor: 'dimgray'}} className="eachInput"/>
-                  <input type="button" value={"%"} onClick={props.onClick} style={{backgroundColor: 'dimgray'}} className="eachInput"/>
-                  <input type="button" value={"%"} onClick={props.onClick} style={{backgroundColor: 'dimgray'}} className="eachInput"/>
+                  <input type="button" value={"."} onClick={props.onClick} style={{backgroundColor: 'dimgray'}} className="eachInput"/>
+                  <input type="button" value={"000"} onClick={props.onClick} style={{backgroundColor: 'dimgray'}} className="eachInput"/>
                   <input type="button" value={"="} onClick={props.onClick} style={{fontSize: '21px'}} className="eachInput"/>
               </div>
         </div>

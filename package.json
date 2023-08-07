@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "colornames": "^1.1.1",
     "mathjs": "^11.8.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
   }
 }

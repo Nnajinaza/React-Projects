@@ -9,15 +9,16 @@ body {
   position: auto;
   width: 79%;
   box-sizing: border-box;
-  border-color: blueviolet;
+  border-color: rgb(10, 10, 10);
   border-style: solid ;
   border-width: 2px;
   border-radius: 1rem;
   background-color: rgb(10, 10, 10);
+  padding-top: 10px;
 }
 main {
   
-  max-height: 750px;
+  max-height: 820px;
   padding : 100px 400px 20px 500px;
   /* border-radius: 1rem; */
   /* : 100px 400px 20px 500px; */
@@ -41,12 +42,16 @@ main {
   height: 40px;
 }
 .inputForm input {
-  height: 40px;
+  height: 30px;
   width: 94%;
   border-radius: 1rem;
   background: transparent;
+  border-bottom-color: black;
+  border-color: rgb(5, 5, 5);
   color: azure;
   padding-left: 12px;
+  padding-bottom: 1px;
+  padding-top: 12px;
   font-size: larger;
   text-align: right;
 }
@@ -69,12 +74,15 @@ main {
   text-align: center;
   background-color: rgb(10, 10, 10);
   border-radius: 1rem;
+  padding-top: 15px;
+  padding-left: 1x;
+  padding-bottom: 2px;
 }
 
 .buttonRow {
   /* width: 300px; */
   background: transparent;
-  padding: 2px 0px 2px 0px ;
+  padding: 2px 0px 2px 2px ;
   text-align: center;
 }
 .eachInput{
