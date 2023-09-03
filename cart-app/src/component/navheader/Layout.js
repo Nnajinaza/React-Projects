@@ -1,12 +1,12 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import Nav from './Nav'
+import Header from './Header'
 import Footer from './Footer'
 
 function Layout() {
     return (
         <div>
-            <Nav />
+            <Header />
             <Outlet style={{padding: "20px"}}/>
             <Footer />
         </div>

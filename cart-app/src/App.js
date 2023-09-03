@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import "./server"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './component/Home';
@@ -9,12 +9,10 @@ import Products from './component/Products';
 import Missing from './component/Missing';
 import Layout from './component/navheader/Layout';
 import { ProductContextProvider } from "./component/ProductContext";
-import { Container } from "@mui/material";
 
 function App() {
   return (
     <ProductContextProvider className="App">
-      <Container>
         <Router>
           <Routes>
             <Route element={<Layout />}>
@@ -27,7 +25,6 @@ function App() {
             <Route path='register' element={< Login />} />
           </Routes>
         </Router>
-      </Container>
     </ProductContextProvider>
   );
 }
