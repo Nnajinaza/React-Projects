@@ -34,7 +34,7 @@ function Footer() {
       </footer>
       <footer className="py-4">
         <div className="row">
-            <div className="col-3 justify-center text-white">
+            <div className="col-3 justify-content-between align-items-center py-11 text-white">
                 <h4>Contact Us</h4>
                 <div>
                     <address >
@@ -53,21 +53,19 @@ function Footer() {
             <div className="col-3">
                 <h4 className="text-white">Information</h4>
                 <div className="footer-link d-flex flex-column justify-content-between">
-                    <Link className="text-white mb-1">Accessories</Link>
-                    <Link className="text-white mb-1">Laptop</Link>
-                    <Link className="text-white mb-1">Headphones</Link>
-                    <Link className="text-white mb-1">Smart watches</Link>
-                    <Link className="text-white mb-1">Tablets</Link>
+                    <Link className="text-white mb-1">Privacy Policy</Link>
+                    <Link className="text-white mb-1">Refund</Link>
+                    <Link className="text-white mb-1">Shopping Policy</Link>
+                    <Link className="text-white mb-1">Terms & Conditions </Link>
+                    <Link className="text-white mb-1">Blog</Link>
                 </div>
             </div>
             <div className="col-3">
                 <h4 className="text-white">Accounts</h4>
                 <div className="footer-link d-flex flex-column">
-                    <Link className="text-white mb-1">Accessories</Link>
-                    <Link className="text-white mb-1">Laptop</Link>
-                    <Link className="text-white mb-1">Headphones</Link>
-                    <Link className="text-white mb-1">Smart watches</Link>
-                    <Link className="text-white mb-1">Tablets</Link>
+                    <Link className="text-white mb-1">About Us</Link>
+                    <Link className="text-white mb-1">Faq</Link>
+                    <Link className="text-white mb-1">Contact</Link>
                 </div>
             </div>
             <div className="col-2">

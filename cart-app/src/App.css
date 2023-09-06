@@ -130,6 +130,7 @@ a {
 footer {
     background-color: #232f3e;
     float: sticky;
+    padding: 10px;
 }
 footer:not(first) {
     border-top: 1px solid grey;
@@ -202,7 +203,7 @@ footer .input-group-text {
 }
 
 /* Home-wrapper-3 Categories */
-.categories {
+.categories, .card-wrapper {
     background-color: white;
     box-shadow: 0 0 10px #0000001a;
     padding: 5px;
@@ -211,7 +212,104 @@ footer .input-group-text {
     width: 24%;
 }
 
+.blog-cart {
+    background-color: white;
+    border-radius: 0.5em;
+    box-shadow: 0 0 5px #0000001a;
+}
 
+.blog-cart img {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
 
+.blog-content {
+    padding: 15px;
+}
 
+.blog-cart .date {
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0;font-weight: 400;
+    color: #777777;
+    padding: 0;
+}
+.blog-content h5 {
+    font-size: 15px;
+    color: #131921;
+}
+
+.blog-content p.desc {
+    font-size: 13px;
+    line-height: 22px;
+    color: #777777;
+}
+
+.section-heading {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 500;
+    margin: 13px;
+}
+
+.product-card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #0000001a;
+}
+.product-card .product-image {
+    height: 270px;
+}
+.product-card .product-image img {
+    object-fit: contain;
+}
+.product-card .product-image > img:last-child {
+    display: none;
+}
+.product-card:hover .product-image > img:nth-child(1) {
+    display: none;
+}
+.product-card:hover .product-image > img:last-child {
+    display: block
+}
+.product-card:hover .action-bar {
+    right: 15px;
+}
+.product-card .product-details h6 {
+    font-size: 13px;
+    color: #bf4500;
+}
+.product-card .product-details h5 {
+    font-size: 18px;
+    color: #1c1c1b;
+}
+.product-card .product-details p.price {
+    font-size: 16px;
+    color: #1c1c1b;
+}
+.action-bar {
+    top: 10%;
+    right: -23px;
+    transition: .3s;
+}
+.wishlist-icon {
+    top: 3%;
+    left: 15px;
+}
+
+.special-product-card {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.special-product-card .special-product-image img {
+    width: 200px;
+}
+.special-product-card .badge {
+    background-color: #eb353b00;
+}
 /* Home css ends */
